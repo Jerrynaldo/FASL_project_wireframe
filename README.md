@@ -7,3 +7,5 @@ Home Page
 Players Page
 <img width="2590" height="4550" alt="Players Page" src="https://github.com/user-attachments/assets/23201e97-4530-4f8a-825b-f65a11675477" />
 
+Matches Page
+<img width="2578" height="6348" alt="Matches page" src="https://github.com/user-attachments/assets/05560d76-0f55-491f-8e73-6e4516b9725c" />
