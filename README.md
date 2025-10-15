@@ -9,3 +9,9 @@ Players Page
 
 Matches Page
 <img width="2578" height="6348" alt="Matches page" src="https://github.com/user-attachments/assets/05560d76-0f55-491f-8e73-6e4516b9725c" />
+
+About Page
+<img width="2618" height="6740" alt="About Us page" src="https://github.com/user-attachments/assets/ccbc47fc-2ea4-4937-bde2-939aff65f32e" />
+
+Contact Page
+![Uploading Contact Us page.png…]()
