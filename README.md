@@ -14,4 +14,5 @@ About Page
 <img width="2618" height="6740" alt="About Us page" src="https://github.com/user-attachments/assets/ccbc47fc-2ea4-4937-bde2-939aff65f32e" />
 
 Contact Page
-![Uploading Contact Us page.png…]()
+<img width="2582" height="6000" alt="Contact Us page" src="https://github.com/user-attachments/assets/683f0d6e-c539-44d9-85dd-fd648242432c" />
+
