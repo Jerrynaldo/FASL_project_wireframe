@@ -29,7 +29,7 @@ This is a wireframe for our semester 3 project [Assignment 1]
 ## About Page
 
 ### Hand-drawn:
-![WhatsApp Image 2025-10-24 at 15 49 14_b27bf0f6](https://github.com/user-attachments/assets/18db3780-eccd-4c05-b99c-3f74e30b5b87)
+![WhatsApp Image 2025-10-24 at 16 15 10_ae7cf336](https://github.com/user-attachments/assets/1db2c2e8-078a-4369-abae-0548b303dd59)
 
 ### Wireframe:
 <img width="2618" height="6740" alt="About Us page" src="https://github.com/user-attachments/assets/ccbc47fc-2ea4-4937-bde2-939aff65f32e" />
