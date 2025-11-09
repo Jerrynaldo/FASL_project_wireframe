@@ -149,8 +149,8 @@ header>a {
 }
 
 .breaking .div-wrapper div {
-    width: 60px;
-    color: rgb(26, 30, 91);
+    width: 75px;
+    color: #000;
     border-bottom: 2px solid rgb(41, 240, 41);
     padding-bottom: 5px;
     text-transform: uppercase;
@@ -199,9 +199,10 @@ header>a {
 .card {
     width: 400px;
     height: 400px;
-    background-color: #fff;
+    background-color: rgb(143, 158, 145);
     padding: 30px;
     border-radius: 30px;
+    box-shadow: 0 0 15px rgb(56, 62, 57);
 }
 
 .card .img-div img {
@@ -213,4 +214,74 @@ header>a {
     text-decoration: none;
     color: #000;
     text-align: center;
+}
+
+/* Highlights */
+.highlights {
+    margin-top: 150px;
+    width: 100%;
+    background: linear-gradient(110deg, rgb(14, 16, 50), rgb(14, 16, 50), rgb(31, 38, 127));
+}
+
+.h-wrapper {
+    padding: 80px 230px;
+}
+
+.h-wrapper>h2 {
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    color: rgb(41, 240, 41);
+}
+
+.h-card {
+    width: 100%;
+    background-color: green;
+    margin: 50px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.h-card img {
+    border-radius: 20px;
+}
+
+.h-card .txt-div {
+    width: 500px;
+}
+
+.h-card .txt-div h2 {
+    margin-bottom: 30px;
+    font-size: 35px;
+    color: rgb(18, 21, 64);
+}
+
+.h-card .txt-div p {
+    color: #fff;
+    font-size: 18px;
+}
+
+#h-button {
+    display: flex;
+    justify-content: right;
+}
+
+#h-button a {
+    background-color: transparent;
+    border: 2px solid rgb(41, 240, 41);
+    box-shadow: 0 0 20px rgb(41, 240, 41);
+    padding: 10px 20px;
+    border-radius: 7px;
+    text-decoration: none;
+    color: #fff;
+    transition: .2s ease-in-out;
+}
+
+#h-button a:hover {
+    background-color: rgb(39, 226, 39);
 }
