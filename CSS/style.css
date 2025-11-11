@@ -18,6 +18,7 @@ header {
     justify-content: space-between;
     background-color: transparent;  
     /* box-shadow: 1px 1px 15px #00000071; */
+    
 }
 
 nav {
@@ -261,7 +262,7 @@ header>a {
 }
 
 .h-card .txt-div {
-    width: 500px;
+    width: 570px;
 }
 
 .h-card .txt-div h2 {
@@ -322,3 +323,11 @@ header>a {
 }
 
 /* Footer */
+footer {
+    width: 100%;
+    background-color: #004410;
+}
+
+.top-area {
+    /* display: flex; */
+}
