@@ -7,6 +7,10 @@
 
 body {
     background: url();
+    backdrop-filter: blur(15px);
+    background-color: #0000002b;
+    z-index: 10;
+    /* padding: 0 200px; */
 }
 
 /* Header */
@@ -47,4 +51,91 @@ header>a {
     text-decoration: none;
     color: #fff;
     font-weight: 500;
+}
+
+body {
+    background: radial-gradient(#0000009f, #000000d0), url(../IMG/LEONE-STARS-2.jpg);
+    background-repeat: repeat-y;
+    background-position: center;
+    background-size: contain;
+    background-color: #0000002b;
+    /* backdrop-filter: blur(15px); */
+}
+
+main {
+    /* backdrop-filter: blur(15px);
+    background-color: #0000002b;
+    z-index: 10; */
+    padding: 0 200px;
+}
+
+.hero-wrapper {
+    padding: 40px;
+    background: linear-gradient(30deg, rgb(16, 185, 16), rgb(14, 16, 50));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    margin-bottom: 150px;
+}
+
+.hero-wrapper h1, i {
+    color: #fff;
+}
+
+.hero-wrapper .i-div {
+    display: flex;
+    gap: 25px;
+}
+
+.main-content {
+
+}
+
+.main-content h2 {
+    color: #fff;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.img-div {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.img-div img {
+    border-radius: 50px;
+}
+
+.main-content p {
+    color: #d6d6d6;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.bottom-wrapper {
+    padding: 40px;
+    background: linear-gradient(30deg, black, rgb(14, 16, 50));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    margin-bottom: 150px;
+}
+
+.bottom-wrapper h1 {
+    color: #fff;
+}
+
+.bottom-wrapper .i-div {
+    display: flex;
+    gap: 25px;
+}
+
+/* Footer */
+footer {
+    background-color: aquamarine;
 }
