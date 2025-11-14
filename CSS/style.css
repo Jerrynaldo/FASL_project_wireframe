@@ -296,6 +296,7 @@ header>a {
     background-color: rgb(39, 226, 39);
 }
 
+/* Our Partners */
 .partners {
     background: radial-gradient(#0000009f, #000000d0),url(../IMG/partners_bg.jpg);
     background-repeat: no-repeat;
@@ -328,7 +329,7 @@ header>a {
     background-color: #1a1a1a;
     color: white;
     padding: 30px 20px;
-    margin-top: 40px;
+    margin-top: 0;
 }
         
 .footer-content {
@@ -393,19 +394,6 @@ header>a {
             justify-content: center;
             gap: 20px;
         }
-        
-        /* .social-icon {
-            width: 40px;
-            height: 40px;
-            background-color: #333;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
-            font-size: 1.5rem;
-            text-decoration: none;
-        } */
         
         .copyright {
             text-align: center;

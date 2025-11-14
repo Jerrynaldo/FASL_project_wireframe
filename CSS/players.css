@@ -13,7 +13,7 @@
         /* Header */
         header {
             background-color: rgb(2, 6, 67);
-            padding: 15px 150px;
+            padding: 30px 150px;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -52,16 +52,27 @@
             font-weight: 500;
         }
         
-        /* Hero Section */
+        /* Hero Secti0n */
         .hero {
             background: url(../IMG/LEONE-STARS-2.jpg);
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
-            padding: 40px 20px;
+            /* padding: 40px 20px; */
             text-align: center;
             height: 300px;
         }
+
+.hero-wrapper {
+    height: 100%;
+    background: url();
+    backdrop-filter: blur(10px);
+    background-color: #0000002b;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
         
         .hero h1 {
             font-size: 70px;
