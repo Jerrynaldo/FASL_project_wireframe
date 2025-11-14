@@ -1,0 +1,424 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #e0e0e0;
+            color: #333;
+        }
+        
+        /* Header */
+        header {
+            background-color: rgb(2, 6, 67);
+            padding: 15px 150px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 10px 25px #000;
+            position: relative;
+        }
+        
+        .logo {
+            width: 50px;
+            height: 50px;
+            background-color: #f0f0f0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid #999;
+        }
+        
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 20px;
+        }
+        
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-weight: 500;
+        }
+        
+        header>a {
+            padding: 10px 20px;
+            border-radius: 7px;
+            background: linear-gradient(120deg, green, rgb(41, 240, 41));
+            text-decoration: none;
+            color: #fff;
+            font-weight: 500;
+        }
+        
+        /* Hero Section */
+        .hero {
+            background: url(../IMG/LEONE-STARS-2.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 40px 20px;
+            text-align: center;
+            height: 300px;
+        }
+        
+        .hero h1 {
+            font-size: 70px;
+            font-weight: 700;
+            letter-spacing: 2px;
+            color: white;
+        }
+        
+        /* Main Content */
+        .main-content {
+            display: flex;
+            gap: 20px;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            margin-top: 50px;
+        }
+        
+        /* Filters */
+        .filters {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+            align-items: center;
+        }
+        
+        .search-box {
+            padding: 8px 12px;
+            border: 1px solid #ccc;
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            background-color: white;
+        }
+        
+        .search-box input {
+            border: none;
+            outline: none;
+            padding: 5px;
+            flex: 1;
+        }
+        
+        .filter-select {
+            padding: 8px 12px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: white;
+            display: flex;
+            align-items: center;
+        }
+        
+        .filter-select select {
+            border: none;
+            outline: none;
+            background: transparent;
+            padding: 0 5px;
+        }
+        
+        .refresh-btn {
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            cursor: pointer;
+            background-color: white;
+        }
+        
+        /* Players List */
+        .players-list {
+            flex: 1;
+            background-color: white;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .players-header {
+            display: grid;
+            grid-template-columns: 2fr 2fr 1fr;
+            padding: 10px 0;
+            border-bottom: 1px solid #eee;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+        
+        .player-item {
+            display: grid;
+            grid-template-columns: 2fr 2fr 1fr;
+            padding: 15px;
+            border: 1px solid #eee;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            background-color: #f9f9f9;
+            align-items: center;
+        }
+        
+        .player-info {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .player-avatar {
+            width: 40px;
+            height: 40px;
+            background-color: #ddd;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .player-avatar img {
+            border-radius: 50px;
+            width: 50px;
+        }
+        
+        .club-logo {
+            width: 30px;
+            height: 30px;
+            background-color: #eee;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid #ccc;
+        }
+        
+        .pagination {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        
+        .page-btn {
+            width: 40px;
+            height: 40px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            background-color: white;
+        }
+        
+        /* Player Detail */
+        .player-detail {
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        
+        .player-card {
+            background-color: white;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .player-header {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 15px;
+        }
+        
+        .player-avatar-large {
+            width: 80px;
+            height: 80px;
+            background-color: #ddd;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .player-name {
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+        
+        .player-number {
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: #555;
+        }
+        
+        .stats-box {
+            background-color: #f9f9f9;
+            border: 1px solid #eee;
+            border-radius: 5px;
+            padding: 10px;
+            margin-top: 10px;
+        }
+        
+        .season-selector {
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 12px;
+            margin-bottom: 5px;
+        }
+        
+        .stat-item {
+            display: flex;
+            justify-content: space-between;
+            margin: 5px 0;
+        }
+        
+        .player-stats {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            margin: 15px 0;
+        }
+        
+        .stat-box {
+            background-color: #f9f9f9;
+            border: 1px solid #eee;
+            border-radius: 5px;
+            padding: 10px;
+            text-align: center;
+        }
+        
+        .stat-value {
+            font-size: 1.2rem;
+            font-weight: 700;
+        }
+        
+        .stat-label {
+            font-size: 0.8rem;
+            color: #666;
+        }
+        
+        .club-info {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-top: 15px;
+        }
+        
+        .club-logo-small {
+            width: 25px;
+            height: 25px;
+            background-color: #eee;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid #ccc;
+        }
+        
+        .bio-section {
+            background-color: white;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .section-title {
+            font-size: 1.2rem;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+        
+        .bio-text {
+            line-height: 1.6;
+            margin-bottom: 15px;
+            color: #666;
+        }
+        
+        .dob {
+            margin-bottom: 15px;
+        }
+        
+        .dob-label {
+            font-weight: 700;
+            font-size: 1.1rem;
+            margin-bottom: 5px;
+        }
+        
+        .dob-value {
+            font-size: 1.1rem;
+            color: #888;
+        }
+        
+        .career-path {
+            margin-top: 15px;
+        }
+        
+        .career-path-title {
+            font-weight: 700;
+            font-size: 1.1rem;
+            margin-bottom: 10px;
+        }
+        
+        .career-logos {
+            display: flex;
+            gap: 10px;
+        }
+        
+        .career-logo {
+            width: 40px;
+            height: 40px;
+            background-color: #eee;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid #ccc;
+        }
+        
+        /* Footer */
+        .bottom {
+            margin-top: 150px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }        
+
+        .bottom-wrapper {
+            padding: 40px;
+            background: linear-gradient(30deg, black, rgb(14, 16, 50));
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-radius: 20px;
+            margin-bottom: 150px;
+            width: 80%;
+        }
+
+        .bottom-wrapper h1 {
+            color: #fff;
+        }
+
+        .bottom-wrapper .i-div {
+            display: flex;
+            gap: 25px;
+        }
+        
+        .social-icon {
+            width: 40px;
+            height: 40px;
+            background-color: black;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #00ff00;
+            font-size: 1.5rem;
+            text-decoration: none;
+        }
+        
+        .footer-logos {
+            background-color: #00ff00;
+            padding: 20px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        
