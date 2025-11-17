@@ -89,6 +89,7 @@ header>a {
     margin-top: 50px;
     background: rgb(192, 192, 192);
     border-radius: 15px;
+    box-shadow: 0 0 7px #6b6b6b;
 }
 
 /* Team Form */
@@ -97,6 +98,7 @@ header>a {
     background-color: #e5e5e5;
     padding: 20px 30px;
     margin-bottom: 50px;
+    box-shadow: 0 0 7px #999;
 }
 
 .team-form>h2, .results>h2 {
@@ -140,19 +142,30 @@ header>a {
 
 }
 
+
 .card {
     display: flex;
     background-color: #fff;
-    justify-content: space-evenly;
-    padding: 50px;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px 0;
     border-radius: 10px;
     margin-bottom: 30px;
+    box-shadow: 0 0 7px #999;
+    
 }
 
 .home, .away {
     display: flex;
     gap: 14px;
     align-items: center;
+    margin: 0 20px;
+    width: 300px;
+    /* background-color: red; */
+}
+
+.home {
+    justify-content: right;
 }
 
 .score {
@@ -162,4 +175,25 @@ header>a {
     align-items: center;
     padding: 10px 20px;
     border-radius: 10px;
+}
+
+/* Fixtures */
+.fixtures {
+    border-radius: 10px;
+    background-color: #e5e5e5;
+    padding: 20px 30px;
+    margin-bottom: 50px;
+    box-shadow: 0 0 7px #999;
+    height: 300px;
+}
+
+.fixtures>h2 {
+    font-size: 20px;
+    margin-bottom: 70px;
+}
+
+.content-wrapper p {
+    font-size: 25px;
+    color: rgb(163, 162, 162);
+    text-align: center;
 }
