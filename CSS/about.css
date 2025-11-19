@@ -109,7 +109,7 @@ main {
     border-radius: 50px;
 }
 
-.main-content p {
+.main-content #gp {
     color: #d6d6d6;
     font-size: 20px;
     text-align: center;
@@ -133,6 +133,43 @@ main {
 .bottom-wrapper .i-div {
     display: flex;
     gap: 25px;
+}
+
+.coach {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 100px;
+}
+
+.c-img-div {
+    
+}
+
+.c-img-div img {
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.details-div {
+    background: linear-gradient(120deg, rgba(8, 130, 8, 0.331), rgba(14, 16, 50, 0.546));
+    padding: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    color: white;
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+.details-div div {
+    width: 130px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #00ff00;
+}
+
+.details-div>p {
+    margin-bottom: 20px;
 }
 
 /* Footer */
